@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    font-family: 'VT323', monospace;
+    box-sizing: border-box;
+
+    scrollbar-width: thin;
+    scrollbar-color: #17d0ef #0000008e;
+}
+
+*::-webkit-scrollbar {
+    width: 1.2rem;
+}
+
+*::-webkit-scrollbar-track {
+    background: #070d12;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #4b0052;
+    border-radius: 7rem;
+    border: .3rem solid #070d12;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    background-image: url(../img/5927911.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.myBox {
+    background-color: #2727279a;
+    width: 38rem;
+    border: .01rem solid #17d0ef;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    outline: none;
+    border-color: #17d0ef;
+    box-shadow: 0 0 5rem #17d0ef;
+}
+
+.myBox .perfil {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .7rem;
+}
+
+.myBox .perfil img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 100%;
+    border: .01rem solid #17d0ef;
+    outline: none;
+    border-color: #17d0ef;
+    box-shadow: 0 0 3rem #17d0ef;
+}
+
+.myBox .perfil .nome {
+    font-size: 3rem;
+    color: #f3f3f3;
+}
+
+.myBox .perfil .cargo {
+    font-size: 2.5rem;
+    color: #f3f3f3;
+}
+
+.myBox .boxInfo {
+    margin-top: 1.5rem;
+}
+
+.myBox .abas {
+    display: flex;
+}
+
+.myBox .abas .aba {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.myBox .abas img {
+    width: 3rem;
+}
+
+.myBox .abas .aba.selecionado {
+    background-color: #272727;
+}
+
+.myBox .abas-info {
+    background-color: #272727;
+
+
+}
+
+.myBox .abas .aba:hover {
+    background-color: #272727;
+}
+
+.abas-info .info {
+    min-height: 26rem;
+    padding: 1.5rem;
+    display: none;
+}
+
+.abas-info .info.selecionado {
+    display: block;
+}
+
+.abas-info .subTitulo {
+    font-size: 2.2rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.abas-info .descricao {
+    font-size: 6rem;
+    max-height: 18rem;
+    overflow-y: auto;
+    padding-right: 1.5rem;
+}
+
+.abas-info .descricao span {
+    color: #17d0ef;
+    font-size: 4rem;
+}
+
+.infoRedes {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: center;
+    max-height: 18rem;
+    overflow-y: auto;
+}
+
+.infoRedes .rede .logo {
+    font-size: 4rem;
+}
+
+.infoRedes .rede {
+    width: 25rem;
+    display: flex;
+    color: #f3f3f3;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 5rem;
+    transition: background .5s;
+    gap: 1rem;
+}
+
+.infoRedes .rede:hover {
+    background-color: rgba(88, 88, 88, 0.397);
+
+}
+
+.infoRedes .insta {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.infoRedes .github {
+    background: black;
+}
+
+.infoRedes .linkedIn {
+    background: #0e76a8;
+}
+
+.infoRedes .myPage {
+    background: #4169e1;
+}
