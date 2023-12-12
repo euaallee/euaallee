@@ -47,7 +47,7 @@ a {
 
 .myBox {
     background-color: #2727279a;
-    width: 38rem;
+    min-width: (38rem, 85%);
     border: .01rem solid #17d0ef;
     border-radius: 1.5rem;
     overflow: hidden;
