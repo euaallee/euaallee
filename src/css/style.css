@@ -47,7 +47,8 @@ a {
 
 .myBox {
     background-color: #2727279a;
-    min-width: (38rem, 85%);
+    width: 38rem;
+    height: auto;
     border: .01rem solid #17d0ef;
     border-radius: 1.5rem;
     overflow: hidden;
@@ -56,18 +57,28 @@ a {
     box-shadow: 0 0 5rem #17d0ef;
 }
 
+@media (max-width: 430px) {
+    .myBox {
+        max-width: 85%;
+    }
+}
+
 .myBox .perfil {
     padding-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: .7rem;
+
 }
 
 .myBox .perfil img {
-    width: 12rem;
-    height: 12rem;
-    object-fit: cover;
+    width: 600px; 
+    height: 120px; 
+    object-fit: cover; 
+    object-position: center;
+    overflow: hidden;
     border-radius: 100%;
     border: .01rem solid #17d0ef;
     outline: none;
@@ -118,6 +129,19 @@ a {
 
 .myBox .abas .aba:hover {
     background-color: #272727;
+}
+
+.animar {
+    animation: flip 5s infinite linear;
+}
+
+@keyframes flip {
+    0% {
+        transform: rotateY(1deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
 }
 
 .abas-info .info {
