@@ -74,8 +74,8 @@ a {
 }
 
 .myBox .perfil img {
-    width: 600px; 
-    height: 120px; 
+    width: 18rem; 
+    height: 18rem; 
     object-fit: cover; 
     object-position: center;
     overflow: hidden;
