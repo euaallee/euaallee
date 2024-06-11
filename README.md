@@ -1,6 +1,6 @@
 ### 👋 Olá! Sou Alexander Joshua
 <p>
-Estudante universitário apaixonado por Ciência da Computação e desenvolvimento de software. Atualmente, estou cursando Ciência da Computação na FACAPE. Além dos estudos, sou membro ativo da equipe de desenvolvimento front-end da InovaTech Jr, onde trabalho em projetos desafiadores e inovadores. Estou sempre buscando aprender e aprimorar minhas habilidades em programação, especialmente em tecnologias front-end como HTML, CSS e JavaScript e framework como REACT e VITE. Animado para colaborar em projetos interessantes e fazer parte de uma comunidade de desenvolvedores! 💻✨
+Estudante universitário apaixonado por Ciência da Computação e desenvolvimento de software. Atualmente, estou cursando Ciência da Computação na FACAPE. Além dos estudos, sou membro ativo da equipe de desenvolvimento front-end da InovaTech Jr, onde trabalho em projetos desafiadores e inovadores. Estou sempre buscando aprender e aprimorar minhas habilidades em programação, especialmente em tecnologias front-end como HTML, CSS e JavaScript e framework como REACT. Animado para colaborar em projetos interessantes e fazer parte de uma comunidade de desenvolvedores! 💻✨
 </p>
 
 - 🔭 Desenvolvedor Front-End
