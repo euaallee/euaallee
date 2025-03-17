@@ -7,13 +7,6 @@
 ---
 
 ### 🚀 O que eu faço?
-- 💡 Desenvolvo interfaces modernas e responsivas com <strong>React</strong> e <strong>React Native</strong>, sempre focado na melhor experiência do usuário.  
-- 🔒 Exploro técnicas de <strong>cibersegurança</strong>, aplicando boas práticas para tornar aplicações mais seguras.  
-- 🛠️ Tenho experiência com <strong>manutenção de hardware e software</strong>, resolvendo problemas e otimizando sistemas.  
-
----
-
-### 🚀 O que eu faço?
 - 💡 Desenvolvo interfaces modernas e responsivas com <strong>React</strong>, <strong>React Native</strong> e <strong>Next.js</strong>.  
 - ⚡ Trabalho com **Vite** para otimizar o desenvolvimento de aplicações web.  
 - 📱 Construo apps mobile com **Expo** para um fluxo de desenvolvimento mais rápido.  
